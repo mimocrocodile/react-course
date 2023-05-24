@@ -6,7 +6,7 @@ async function getApi(api) {
   return result;
 }
 const API_KEY = import.meta.env.VITE_API_KEY
-console.log(API_KEY)
+
 const apiLink =
   `https://api.themoviedb.org/3/discover/movie?include_adult=true&api_key=${API_KEY}&page=1`;
 const imgLink = "https://image.tmdb.org/t/p/original/";
